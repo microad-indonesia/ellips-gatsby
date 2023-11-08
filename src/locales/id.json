@@ -1,0 +1,240 @@
+{
+    "common": {
+        "button": "Lihat Detail",
+        "load": "Muat lebih banyak"
+    },
+    "category": {
+        "hair-vitamin": "Hair Vitamin",
+        "hair-mask": "Hair Mask",
+        "dry-shampoo": "Dry Shampoo",
+        "attribute": {
+            "attribute1": "Tipe Rambut",
+            "attribute2": "Manfaat",
+            "attribute3": "Bahan Utama",
+            "attribute4": "Waktu Tepat Menggunakan",
+            "attribute5": "Aroma"
+        }
+    },
+    "menu": {
+        "home": "Home",
+        "about": "About Ellips",
+        "search": "Search",
+        "hairpedia": "Hairpedia",
+        "contact": "Contact Us"
+    },
+    "home": {
+        "banner": {
+            "button": "See detail"
+        },
+        "bestie": {
+            "category1": "Rambut Kering",
+            "category2": "Rambut Berwarna",
+            "category3": "Rambut Rontok",
+            "content": {
+                "description1": "Rangkaian perawatan rambut yang dapat melindungi rambut dari kekeringan. Menjadikan rambut tetap sehat lembut, dan mudah diatur.",
+                "description2": "Rangkaian perawatan rambut yang dapat melindungi rambut berwarna dari kekeringan. Menjadikan rambut yang diwarnai tetap sehat, lembut, dan mudah diatur.",
+                "description3": "Rangkaian perawatan rambut yang memperkuat rambut dan melindungi rambut dari kekeringan. Menjadikan rambut tetap sehat, lembut, dan kuat."
+            },
+            "recommendation": {
+                "title": "Rekomendasi Produk",
+                "button": "Lihat Produk"
+            },
+            "product1": {
+                "link1": "/id/hair-vitamin/ellips-hair-treatment",
+                "link2": "/id/hair-mask/ellips-hair-treatment-1"
+            },
+            "product2": {
+                "link1": "/id/hair-vitamin/ellips-nutri-color",
+                "link2": "/id/hair-mask/ellips-nutri-color-1"
+            },
+            "product3": {
+                "link1": "/id/hair-vitamin/ellips-hair-vitality",
+                "link2": "/id/hair-mask/ellips-volume-miracle"
+            }
+        },
+        "category": {
+            "title1": "Meet your hair's",
+            "title2": "best friend",
+            "subtitle": "Diformulasikan sempurna dengan vitamin untuk membantumu mendapatkan rambut yang lebih halus & sehat bahkan mencegahnya dari kerusakan. Bersiaplah untuk memberikan kehidupan yang baru pada rambutmu!"
+        },
+        "review": {
+            "title1": "What They Said",
+            "title2": " About Us"
+        },
+        "article": {
+            "title1": "Hair",
+            "title2": "Pedia",
+            "button_more": "Baca Selengkapnya",
+            "button_all": "Baca Artikel Lainnya"
+        },
+        "gallery": {
+            "title1": "Follow & Share",
+            "title2": "HairLittleSecret",
+            "title3": "Follow kami di Instagram"
+        }
+    },
+    "hairpedia": {
+        "title": "Hairpedia",
+        "article": {
+            "title1": "Discover",
+            "title2": "New Things",
+            "subtitle": "Temukan berbagai tips dan inspirasi untuk rambut sehatmu",
+            "button": "Lihat Semua Artikel"
+        },
+        "video": {
+            "title": "Explore The Hair Secret",
+            "subtitle": "Temukan rahasia kecil rambut sehat untuk selalu tampil memukau",
+            "button": "Lihat Semua Video"
+        }
+    },
+    "footer": {
+        "title": "Thank you for always being #hairready with ellips!",
+        "subtitle": "Untuk tahu lebih jauh tentang Ellips atau ingin berbisnis dengan kami, kirim email di sini!"
+    },
+    "recommendation": {
+        "title1": "You Might",
+        "title2": "Also Love"
+    },
+    "link": {
+        "ehv-hair-repair": "/id/hair-vitamin/ellips-hair-repair-1",
+        "ehv-smooth-silky": "/id/hair-vitamin/ellips-smooth-and-silky",
+        "ehv-silky-black": "/id/hair-vitamin/ellips-silky-black-1",
+        "ehv-ultra-treatment": "/id/hair-vitamin/ellips-ultra-treatment",
+        "ehv-nourish-protect": "/id/hair-vitamin/ellips-nourish-protect",
+        "ehv-nourish-soften": "/id/hair-vitamin/ellips-nourish-and-soften",
+        "ehv-hair-treatment": "/id/hair-vitamin/ellips-hair-treatment",
+        "ehv-smooth-shiny": "/id/hair-vitamin/ellips-smooth-and-shiny",
+        "ehv-shiny-black": "/id/hair-vitamin/ellips-shiny-black",
+        "ehm-hair-treatment": "/id/hair-mask/ellips-hair-treatment-1",
+        "ehm-smooth-shiny": "/id/hair-mask/ellips-smooth-and-shiny-1",
+        "ehm-nutri-color": "/id/hair-mask/ellips-nutri-color-1",
+        "ehm-hair-repair": "/id/hair-mask/ellips-hair-repair",
+        "ehm-smooth-silky": "/id/hair-mask/ellips-smooth-and-silky-1",
+        "ehm-silky-black": "/id/hair-mask/ellips-silky-black",
+        "eds-blossom": "/id/dry-shampoo/ellips-dry-shampoo-blossom-1"
+    },
+    "article": {
+        "related": "Artikel Terkait",
+        "metadesc": "Baca artikel kami"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "option": "Negara",
+        "email": "Email",
+        "name": "Nama",
+        "message": "Pesan",
+        "submit": "Submit",
+        "operation": "Senin - Jumat",
+        "phone": "Telepon "
+    },
+    "search": {
+        "title": "Hasil pencarian",
+        "for": "untuk",
+        "product": "Produk",
+        "article": "Artikel",
+        "metadesc": "Hasil pencarian Anda di website Ellips"
+    },
+    "about": {
+        "title": "About Ellips",
+        "description": "Penampilan sempurna tidak akan lengkap tanpa rambut yang sehat dan on-point. Itu sebabnya para wanita tidak bisa lepas dari alat hair styling mulai dari hairdryer, catokan, curly iron dan telah menjadi sahabat kita setiap harinya. Terkadang kita lupa bahwa alat-alat tersebut bisa merusak rambut kita. Atau mungkin kita tahu, tapi kita tak punya pilihan lain untuk bisa tampil dengan rambut sempurna setiap saat.",
+        "subtitle": "ALAT HAIRSTYLING DAN PANASNYA MATAHARI DAPAT MERUSAK RAMBUT?",
+        "section1": {
+            "title": "PANAS ALAT STYLING RAMBUT BISA MENCAPAI LEBIH DARI 230° C",
+            "content1": "Panas alat styling rambut kini dirancang untuk bisa mencapai suhu panas lebih tinggi dari sebelumnya, bahkan terkadang mencapai 230° C. Hal ini dapat membuat rambut menjadi kering, kusam dan lebih sulit untuk disisir dengan kerapuhan yang dapat menyebabkan rambut rusak.",
+            "content2": "Hair Study of Heat Protection"
+        },
+        "section2": {
+            "title": "PANAS MATAHARI JUGA DAPAT MENYEBABKAN KERUSAKAN RAMBUT",
+            "content1": "Paparan sinar matahari yang berlebihan adalah penyebab kerusakan struktur batang rambut paling sering. Radiasi UVB dapat membuat hilangnya protein rambut dan radiasi UVA dapat mengubah warna rambut.",
+            "content2": "US National Library of Medicine",
+            "content3": "Ellips hadir sebagai solusinya. Sejak tahun 2005 Ellips hadir di Indonesia dan kini telah menjadi vitamin rambut nomor 1 di Asia*. Formulanya bekerja secara aktif untuk melindungi dan merawat setiap helai rambut yang rusak sehingga kembali sehat. Rambut terasa lebih lembut dan mudah diatur bahkan pada pemakaian pertama."
+        },
+        "section3": {
+            "title": "WHY ELLIPS?",
+            "content1": "Rambut terasa lebih sehat dan lembut pada pemakaian pertama.",
+            "content2": "Memberikan sensasi keharuman yang tahan lama.",
+            "content3": "Menyerap sempurna ke batang rambut sehingga tidak membuat rambut lepek dan tidak menyebabkan tangan terasa lengket setelah pemakaian.",
+            "content4": "Dapat disesuaikan dengan kebutuhan setiap jenis rambut."
+        },
+        "section4": {
+            "title": "1 DARI 5 WANITA INDONESIA",
+            "content": "sudah mempercayakan kesehatan rambutnya pada Ellips vitamin rambut. Ini saatnya kamu membuktikannya!"
+        }
+    },
+    "tnc": {
+        "title": "Terms & Conditions",
+        "section1": {
+            "title": "SYARAT & KETENTUAN",
+            "content": "Syarat dan ketentuan di bawah ini berlaku untuk penggunaan situs Ellips Haircare Indonesia. Ketentuan berlaku antara Anda dan PT Kino Indonesia Tbk, sebagai pemilik lisensi Ellips Haircare Indonesia yang beralamat di Kino Tower Lt 17, Alam Sutera, Jl. Jalur Sutera Boulevard No 01, Kota Tangerang, Banten, 15143. Harap membaca syarat dan ketentuan dengan seksama sebelum menggunakan situs. Dengan mengakses situs ini, Anda menyetujui ketentuan penggunaan, kondisi dan semua hukum yang berlaku. Jika Anda tidak menyetujui ketentuan ini, Anda tidak dapat menggunakan situs ini."
+        },
+        "section2": {
+            "title": "Data Personal",
+            "content1": "Kami akan mengumpulkan informasi data pribadi Anda, apabila Anda:  (I) menaruh alamat e-mail Anda pada kolom yang tersedia; dan (II) menghubungi kami melalui layanan Call Center.",
+            "content2": "Anda dapat membaca dan mengetahui lebih lanjut mengenai pengumpulan dan pengelolaan data pribadi Anda ",
+            "link": " disini"
+        },
+        "section3": {
+            "title": "Informasi dan Kegunaan Situs",
+            "content1": "Informasi yang terkandung pada situs ini hanya memuat deskripsi secara umum produk-produk Ellips Haircare dan tidak diperjualbelikan secara langsung melalui situs ini, melainkan melalui pihak ketiga yang tersedia di masing-masing negara.",
+            "content2": "Saran yang tersedia melalui artikel-artikel pada situs ini memiliki tujuan indikatif dan tidak menggantikan diagnosis medis dari para ahli. Karenanya, kami tidak menjamin seluruh kepuasan yang dihasilkan dari tindak lanjut yang Anda lakukan. Untuk informasi lebih lanjut, kami sarankan untuk berkonsultasi dengan dokter."
+        },
+        "section4": {
+            "title": "Pembelian Produk Ellips Haircare",
+            "content": "Anda akan diarahkan ke halaman e-commerce sesuai dengan pilihan dan negara domisili Anda saat meng-klik “Order Now” pada halaman produk. Produk yang dijual pada masing-masing e-commerce dijual oleh distributor resmi PT Kino Indonesia Tbk. Semua ketersediaan produk dan harga tergantung pada masing-masing e-commerce yang ada di negara tersebut."
+        },
+        "section5": {
+            "title": "Hak Kekayaan Intelektual",
+            "content": "Kami adalah pemilik tunggal atau pemilik lisensi resmi semua hak dari situs ellipshaircare.id beserta isinya. Semua judul, kepemilikan dan hak kekayaan intelektual dalam situs ini adalah milik kami dan dilindungi oleh hukum yang berlaku. Dilarang keras untuk menggunakan, mengubah, atau memasang merek-merek yang disebutkan di atas. Seluruh perdebatan yang berkaitan dengan ketentuan ini harus diselesaikan melalui pengadilan Indonesia."
+        },
+        "section6": {
+            "title": "Umum",
+            "content": "Syarat dan ketentuan yang berlaku atas penggunaan situs ini dapat sewaktu-waktu diubah oleh Ellips Haircare Indonesia selaku pemilik dari situs ellipshaircare.id tanpa pemberitahuan apapun. Penggunaan situs ini dianggap sebagai persetujuan anda terhadap syarat dan ketentuan ini."
+        }
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "section1": {
+            "title": "KEBIJAKAN PRIVASI PELANGGAN",
+            "content": "Kami selalu berusaha sebaik mungkin untuk membangun dan menjaga kepercayaan para pelanggan kami. Kebijakan ini merupakan salah satu cara kami untuk mempertanggungjawabkan kepercayaan tersebut: dengan menjelaskan tujuan daripada situs ini, informasi apa yang kami kumpulkan, bagaimana kami menggunakan dan melindunginya, dan informasi apa saja yang dapat kami gunakan sesuai dengan persetujuan pelanggan kami. Silakan membaca bagian ini dengan hati-hati karena mengandung syarat dan ketentuan yang sah as persetujuan penggunaan situs ini."
+        },
+        "section2": {
+            "title": "Tujuan Situs",
+            "content": "Tujuan situs ini adalah untuk menyediakan informasi mengenai produk-produk Ellips Haircare Indonesia dengan lisensi dari PT Kino Indonesia Tbk. Kami tidak menjual produk-produk apapun melalui situs ini, namun kami menyediakan informasi tentang dan referensi dimana anda dapat membeli produk-produk tersebut."
+        },
+        "section3": {
+            "title": "Pengumpulan Data Pribadi",
+            "point1": "Kami memperoleh data pribadi Anda pada saat Anda mengajukan pertanyaan bisnis terkait produk dan toko kami dengan memuat informasi berikut: a). Nama, b). Alamat Email",
+            "point2": "Kami juga mendapatkan informasi di atas pada saat Anda berinteraksi langsung dengan staff kami melalui nomor Call Center yang tertera di halaman situs kami.",
+            "point3": "Sebagai tambahan dari yang telah disebutkan di atas, kami dapat menggunakan teknologi seperti Cookies, Flash Cookies, Web Beacons, Web Server Logs untuk merekam aktivitas Anda dalam situs secara otomatis setelah Anda menyetujui permintaan yang diberikan."
+        },
+        "section4": {
+            "title": "Pengolahan Data Pribadi",
+            "content1": "Kami mengumpulkan informasi data pribadi Anda untuk menghubungi atau berkomunikasi dengan Anda melalui telepon atau e-mail untuk menjawab pertanyaan bisnis atas nama Anda terkait produk dan toko kami yang Anda ajukan. Melalui fasilitas Call Center yang Anda pilih, Anda juga menyetujui bahwa komunikasi tersebut dapat dilakukan dengan melakukan pengiriman korespondensi atau dokumen kepada Anda dengan mengungkapkan data pribadi Anda, sebagaimana juga diungkapkan di pembungkus luar amplop/paket surat."
+        },
+        "section5": {
+            "title": "Perlindungan Data Pribadi",
+            "content": "Untuk setiap data pribadi yang kami terima, kami akan melakukan langkah-langkah untuk memastikan data tersebut terjaga kerahasiaannya dan tersimpan dengan aman. Kami tidak akan menyewakan, memperdagangkan, mendistribusikan atau menjual kepada pihak ketiga setiap data pribadi yang Anda berikan kepada kami kecuali kami menerima persetujuan dari Anda atau hukum yang berlaku memperbolehkan kami untuk melakukan hal tersebut."
+        },
+        "section6": {
+            "title": "Cookies dan Teknologi Seluler",
+            "point1": "5.1 Cookies adalah file teks kecil yang tersimpan di komputer, tablet atau telepon genggam Anda. Cookies akan menyimpan informasi yang berguna saat Anda sedang menjelajahi situs, yang akan menstimulasi koneksi berkelanjutan dengan situs sendiri. Namun cookies tidak dapat mengidentifikasi Anda sebagai seorang individu.",
+            "content": "Kami menggunakan cookies untuk alasan demikian, antara lain:",
+            "list1": "Untuk mempelajari cara Anda berinteraksi dengan konten Ellips Haircare",
+            "list2": "Membantu kami untuk meningkatkan pengalaman Anda ketika sedang mengunjungi situs kami",
+            "list3": "Mengingat preferensi Anda seperti bahasa atau negara, sehingga Anda tidak perlu melakukan pengaturan situs setiap berkunjung",
+            "list4": "Untuk menganalisis seberapa baik situs kami beroperasi",
+            "point2": "Flash Cookies adalah data yang serupa dengan cookies yang digunakan untuk mengingat pengaturan, preferensi dan pemakaian terutama untuk video dan layanan serupa lainnya",
+            "point3": "Web Beacons adalah gambar grafik kecil di dalam halaman situs yang dapat merekam halaman dan iklan yang dipilih pengguna",
+            "point4": "Web Server Logs adalah catatan kegiatan penggunaaan situs. Sebagai contoh, web server logs dapat mencatat istilah atau tautan yang anda pilih untuk mengunjungi situs atau dapat pula mencatatat IP dan cookies yang terpasang oleh browser pada server"
+        },
+        "section7": {
+            "title": "Kontak",
+            "content": "Jika Anda memiliki pertanyaan atau keluhan mengenai kebijakan privasi atau perlindungan data, Anda dapat dapat langsung ",
+            "link": " menghubungi kami"
+        }
+    },
+    "404": {
+        "title": "Maaf, halaman yang kamu cari tidak ditemukan",
+        "button": "Kembali ke Beranda"
+    }
+}

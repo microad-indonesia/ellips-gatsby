@@ -1,0 +1,83 @@
+[
+    {
+        "_id": 1,
+        "name": {
+            "en": "Dry Hair",
+            "id": "Rambut Kering",
+            "ja": "干燥的头发",
+            "zh": "乾燥した髪"
+        },
+        "description": {
+            "en": "Rangkaian perawatan rambut yang dapat melindungi rambut dari kekeringan. Menjadikan rambut tetap sehat, lembut, dan mudah diatur.",
+            "id": "A range of haircare products that can protect hair from dryness and keep hair healthy smooth and easy to manage.",
+            "ja": "一系列护发产品，可以保护头发不干燥，保持头发健康光滑，易于打理。",
+            "zh": "髪を乾燥から守り、滑らかで扱いやすい健康に保つことができるヘアケア製品の範囲。"
+        },
+        "title_section": {
+            "en": "Product Recommendation",
+            "id": "Rekomendasi Produk",
+            "ja": "製品の推奨事項",
+            "zh": "推荐产品"
+        },
+        "button": {
+            "en": "See Product",
+            "id": "Lihat Produk",
+            "ja": "製品を見る",
+            "zh": "查看产品"
+        }
+    },
+    {
+        "_id": 2,
+        "name": {
+            "en": "Colored Hair",
+            "id": "Rambut Berwarna",
+            "ja": "染发",
+            "zh": "着色された髪"
+        },
+        "description": {
+            "en": "A range of haircare products that can protect colored hair from dryness and provide long lasting color protection while keeping hair healthy, smooth and easy to manage. ",
+            "id": "Rangkaian perawatan rambut yang dapat melindungi rambut berwarna dari kekeringan. Menjadikan rambut yang diwarnai tetap sehat, lembut, dan mudah diatur.",
+            "ja": "一系列护发产品，可以保护染了色的头发不干燥，并提供持久的颜色保护，同时保持头发健康、光滑和易于打理。",
+            "zh": "着色された髪を乾燥から保護し、髪を健康で滑らかで管理しやすい状態に保ちながら、長期的な色の保護を提供できるヘアケア製品の範囲。"
+        },
+        "title_section": {
+            "en": "Product Recommendation",
+            "id": "Rekomendasi Produk",
+            "ja": "製品の推奨事項",
+            "zh": "推荐产品"
+        },
+        "button": {
+            "en": "See Product",
+            "id": "Lihat Produk",
+            "ja": "製品を見る",
+            "zh": "查看产品"
+        }
+    },
+    {
+        "_id": 3,
+        "name": {
+            "en": "Fragile Hair",
+            "id": "Rambut Rontok",
+            "ja": "掉发",
+            "zh": "抜け毛"
+        },
+        "description": {
+            "en": "A range of haircare products that can strengthen and protect hair from dryness. Keeps hair healthy smooth and easy to manage. ",
+            "id": "Rangkaian perawatan rambut yang memperkuat rambut dan melindungi rambut dari kekeringan. Menjadikan rambut tetap sehat, lembut, dan kuat.",
+            "ja": "一系列护发产品，可以加强和保护头发不干燥。保持头发健康光滑，易于打理。",
+            "zh": "髪を強化し、乾燥から保護することができるヘアケア製品の範囲。 髪を滑らかに保ち、管理しやすくします。"
+        },
+        "title_section": {
+            "en": "Product Recommendation",
+            "id": "Rekomendasi Produk",
+            "ja": "製品の推奨事項",
+            "zh": "推荐产品"
+        },
+        "button": {
+            "en": "See Product",
+            "id": "Lihat Produk",
+            "ja": "製品を見る",
+            "zh": "查看产品"
+        }
+    }
+]

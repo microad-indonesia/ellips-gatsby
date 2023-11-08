@@ -1,0 +1,339 @@
+@import '../../styles/colors';
+
+section.product-category {
+    position: relative;
+    margin: 4rem auto 6rem;
+
+    @media (min-width: 1800px) {
+        margin-bottom: 5%;
+    }
+
+    @media (max-width: 890px) {
+        margin: 2rem auto 4rem;
+    }
+
+    @media (max-width: 768px) {
+        margin: 2.5rem auto 5rem;
+    }
+
+    @media (max-width: 576px) {
+        margin: 0;
+        padding: 4rem 0;
+    }
+
+    @media (max-width: 320px) {
+        padding: 4rem 0 2rem;
+    }
+
+    .section-title {
+        @media (max-width: 767px) {
+            padding-left: 0;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: $black;
+
+            @media (max-width: 576px) {
+                line-height: 2rem;
+            }
+
+            @media (max-width: 320px) {
+                font-size: 1.25rem;
+                letter-spacing: 1px;
+                line-height: 1.75rem;
+            }
+
+            span {
+                color: $ellips-pink;
+
+                @media (max-width: 767px) {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .section-desc {
+        width: 60%;
+        margin: 1.25rem auto 1.5rem;
+
+        @media (min-width: 1400px) {
+            width: 60%;
+        }
+
+        @media (max-width: 1024px) {
+            width: 70%;
+        }
+
+        @media (max-width: 890px) {
+            width: 80%;
+        }
+
+        @media (max-width: 800px) {
+            width: 85%;
+        }
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+
+        @media (max-width: 576px) {
+            width: 90%;
+            margin: 1rem auto 2.5rem;
+        }
+
+        @media (max-width: 320px) {
+            width: 95%;
+        }
+
+        p {
+            font-size: 1rem;
+
+            @media (max-width: 320px) {
+                font-size: 0.85rem;
+            }
+        }
+    }
+
+    .product-category-container {
+        padding: 0 1.25rem;
+
+        @media (min-width: 1400px) {
+            min-height: 600px;
+        }
+
+        @media (max-width: 768px) {
+            padding: 0 1rem;
+        }
+
+        @media (max-width: 576px) {
+            padding: 0 2rem;
+        }
+
+        @media (max-width: 390px) {
+            padding: 0 1rem;
+        }
+
+        .product-category-content {
+            a {
+                color: $ellips-grey;
+
+                .product-image {
+                    img {
+                        border-radius: 0.5rem 6rem;
+                        @media (max-width: 768px) {
+                            border-radius: 0.5rem 4rem;
+                        }
+
+                        @media (max-width: 576px) {
+                            width: 100%;
+                            border-radius: 0.5rem 6.5rem;
+                        }
+
+                        @media (max-width: 320px) {
+                            border-radius: 0.5rem 4rem;
+                        }
+                    }
+                }
+
+                .product-text {
+                    width: 100%;
+                    margin: 1.75rem 0 0;
+
+                    @media (max-width: 767px) {
+                        text-align: center;
+                        min-height: 110px;
+                    }
+
+                    @media (max-width: 576px) {
+                        min-height: auto;
+                    }
+
+                    .product-title {
+                        width: 100%;
+                        color: $ellips-pink;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        text-align: center;
+                        margin: 0 0 1.25rem;
+
+                        @media (max-width: 768px) {
+                            margin: 0 0 1rem;
+                        }
+
+                        @media (max-width: 576px) {
+                            padding: 0;
+                        }
+
+                        &:lang(ja),
+                        &:lang(zh) {
+                            width: 100%;
+                        }
+
+                        h2 {
+                            font-size: 1.5rem;
+
+                            @media (max-width: 768px) {
+                                font-size: 1.25rem;
+                            }
+
+                            @media (max-width: 576px) {
+                                font-size: 1.5rem;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 1.25rem;
+                            }
+                        }
+                    }
+
+                    .product-desc {
+                        padding: 0;
+                        color: $ellips-grey;
+                        text-align: center;
+                        min-height: 160px;
+
+                        @media (min-width: 1400px) and (max-width: 1799px) {
+                            min-height: 135px;
+                        }
+
+                        @media (max-width: 1024px) {
+                            min-height: 170px;
+                        }
+
+                        @media (max-width: 890px) {
+                            min-height: 200px;
+                        }
+
+                        @media (max-width: 768px) {
+                            min-height: 180px;
+                        }
+
+                        @media (max-width: 576px) {
+                            padding: 0;
+                            min-height: auto;
+                        }
+
+                        p {
+                            font-size: 1rem;
+                            line-height: 1.5rem;
+
+                            @media (max-width: 1400px) {
+                                line-height: 1.75rem;
+                            }
+
+                            @media (max-width: 800px) {
+                                line-height: 1.5rem;
+                            }
+
+                            @media (max-width: 768px) {
+                                font-size: 0.9rem;
+                                line-height: 1.5rem;
+                            }
+
+                            @media (max-width: 576px) {
+                                font-size: 1rem;
+                                line-height: 1.75rem;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 0.85rem;
+                                line-height: 1.5rem;
+                                margin: 0 0 1.75rem;
+                            }
+                        }
+                    }
+
+                    @media (max-width: 767px) {
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .see-detail {
+                display: flex;
+                justify-content: center;
+                width: 75%;
+                font-size: 1rem;
+                letter-spacing: 1px;
+                margin: 0 auto;
+                padding: 1rem 2rem;
+                color: #fff;
+                background: $ellips-pink;
+                border: 0;
+                border-radius: 0rem 2rem;
+                @media (max-width: 890px) {
+                    width: 90%;
+                }
+
+                @media (max-width: 768px) {
+                    width: 95%;
+                    font-size: 0.95rem;
+                    border-radius: 0rem 2.5rem;
+                }
+
+                @media (max-width: 576px) {
+                    width: 75%;
+                    margin: 0 auto 1rem;
+                    font-size: 1rem;
+                }
+
+                @media (max-width: 360px) {
+                    width: 90%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 85%;
+                    padding: 0.75rem 1.5rem;
+                }
+
+                &:hover {
+                    color: $ellips-pink;
+                    background: transparent;
+                    border: 1px solid $ellips-pink;
+                }
+            }
+        }
+    }
+
+    .carousel-control-prev {
+        color: $ellips-pink;
+        top: 25%;
+        left: -3%;
+        opacity: 1;
+
+        @media (max-width: 390px) {
+            left: -6%;
+        }
+    }
+
+    .carousel-control-next {
+        color: $ellips-pink;
+        top: 25%;
+        right: -3%;
+        opacity: 1;
+
+        @media (max-width: 390px) {
+            right: -6%;
+        }
+    }
+
+    .fa {
+        color: $pink;
+        font-size: 4em;
+        font-weight: bolder;
+    }
+
+    svg {
+        color: $pink;
+        font-size: 4em;
+        font-weight: bolder;
+
+        @media (max-width: 320px) {
+            font-size: 3.5em;
+        }
+    }
+}

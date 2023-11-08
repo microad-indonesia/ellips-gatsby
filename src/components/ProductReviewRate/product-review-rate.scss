@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+
+.review-rate {
+    margin: 0.5rem 0;
+
+    .fa.fa-star {
+        margin-right: 0.5rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

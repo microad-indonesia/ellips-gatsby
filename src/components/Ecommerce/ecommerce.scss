@@ -1,0 +1,186 @@
+@import '../../styles/colors';
+
+.box-commerce {
+    @media (max-width: 767px) {
+        padding: 0;
+    }
+
+    .ecommerce-section {
+        margin-bottom: 2.5rem;
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+
+        .container-fluid {
+            .col-wrapper {
+                @media (max-width: 767px) {
+                    flex-direction: column;
+                }
+
+                .section-title {
+                    width: 100%;
+                    margin: 0 0 0.5rem;
+                    text-align: center;
+
+                    @media (max-width: 767px) {
+                        width: 100%;
+                        text-align: center;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    h3 {
+                        margin: 0;
+                        font-size: 1.5rem;
+                        color: $black;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+
+                        @media (max-width: 992px) {
+                            font-size: 1.75rem;
+                            margin-bottom: 0.25rem;
+                        }
+
+                        @media (max-width: 767px) {
+                            font-size: 1.5rem;
+                        }
+
+                        @media (max-width: 360px) {
+                            font-size: 1.35rem;
+                        }
+
+                        @media (max-width: 320px) {
+                            font-size: 1.25rem;
+                        }
+
+                        span {
+                            color: $ellips-pink;
+                        }
+                    }
+                }
+
+                form {
+                    width: 100%;
+
+                    @media (max-width: 767px) {
+                        width: 75%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    .form-group select {
+                        height: auto;
+                        border: none;
+                        letter-spacing: 2px;
+                        font-size: 0.95rem;
+                        padding: 1rem 2rem;
+                        text-transform: uppercase;
+                        border-radius: 0 2.5rem;
+                        color: #fff;
+                        background-color: $black;
+
+                        @media (max-width: 992px) {
+                            width: 50%;
+                            margin: 0 auto;
+                            justify-content: center;
+                            display: flex;
+                        }
+
+                        @media (max-width: 767px) {
+                            width: 100%;
+                        }
+
+                        @media (max-width: 360px) {
+                            font-size: 0.85rem;
+                        }
+
+                        &.custom-select {
+                            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+                        }
+
+                        &:focus {
+                            box-shadow: none;
+                            outline: none;
+                        }
+
+                        option {
+                            background-color: $white;
+                            color: $black;
+                            border-bottom: 2px solid $black !important;
+                            border-radius: 0;
+                        }
+                    }
+                }
+
+                &.list-box {
+                    padding: 1.25rem 4rem 0;
+
+                    @media (max-width: 992px) {
+                        padding: 1.25rem 0 0;
+                    }
+
+                    @media (max-width: 767px) {
+                        padding: 1rem 1rem 0;
+                    }
+
+                    .ecommerce-list {
+                        align-items: center;
+                        width: 100%;
+                        margin: 1rem auto;
+
+                        @media (max-width: 767px) {
+                            margin: 0 auto 2.5rem;
+                        }
+
+                        .box-shop {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+
+                            @media (max-width: 992px) {
+                                flex-direction: row;
+                            }
+
+                            a {
+                                color: $ellips-grey;
+                                font-size: 1.25rem;
+                                font-weight: bolder;
+                                letter-spacing: 0.5px;
+                                display: flex;
+                                justify-content: center;
+                                text-align: center;
+                                line-height: 1.5rem;
+                                margin-bottom: 1rem;
+
+                                @media (max-width: 992px) {
+                                    line-height: 2rem;
+                                    margin: 0;
+                                }
+
+                                @media (max-width: 767px) {
+                                    font-size: 1.25rem;
+                                    justify-content: center;
+                                    padding: 0.5rem 0;
+                                }
+
+                                @media (max-width: 360px) {
+                                    font-size: 1.15rem;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 1rem;
+                                    line-height: 1.5rem;
+                                }
+
+                                &:hover {
+                                    color: $black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

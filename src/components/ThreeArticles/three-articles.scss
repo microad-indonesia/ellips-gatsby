@@ -1,0 +1,151 @@
+@import '../../styles/colors';
+@import '../../styles/mixins';
+
+.section-three-articles {
+    width: 95%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    display: flex;
+    @media (max-width: 767px) {
+        width: 90%;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+    .three-articles-container {
+        position: relative;
+        max-height: 300px;
+        overflow: hidden;
+        @include pink-gradient;
+
+        @media (min-width: 767px) and (max-width: 1024px) {
+            max-height: 180px;
+        }
+        @media (max-width: 767px) {
+            max-height: 125px;
+        }
+
+        .img-container {
+            img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                object-position: center;
+                @media (min-width: 767px) and (max-width: 1024px) {
+                    height: 180px;
+                }
+                @media (max-width: 767px) {
+                    height: 125px;
+                }
+            }
+        }
+
+        .three-articles-text {
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            color: #000;
+            padding-right: 5%;
+            @media (min-width: 768px) and (max-width: 990px) {
+                font-size: 70%;
+            }
+
+            .article-category {
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 0.9em;
+                @media (min-width: 1601px) {
+                    font-size: 0.6em;
+                }
+                @media (min-width: 1401px) and (max-width: 1600px) {
+                    font-size: 0.55em;
+                }
+                @media (max-width: 767px) {
+                    font-size: 0.8em;
+                }
+            }
+
+            .article-title {
+                letter-spacing: 2px;
+                font-size: 1.25em;
+                font-weight: bolder;
+                width: 100%;
+                margin-bottom: 3%;
+                @media (min-width: 1401px) {
+                    font-size: 0.8em;
+                }
+                @media (max-width: 767px) {
+                    font-size: inherit;
+                }
+            }
+
+            // DO NOT REMOVE WRITER AND DATE - might be needed someday
+            // .writer {
+            //   max-width: 50%;
+            //   letter-spacing: 1px;
+            //   float: left;
+            //   font-size: 0.75rem;
+            //   @media (max-width: 990px) {
+            //     display: none;
+            //   }
+            // }
+
+            // .article-date {
+            //   width: 50%;
+            //   letter-spacing: 1px;
+            //   float: left;
+            //   // padding-left: 1%;
+            //   position: relative;
+            //   font-size: 0.75rem;
+            //   @media (max-width: 990px) {
+            //     display: none;
+            //   }
+
+            //   span {
+            //     font-weight: bolder;
+            //     padding-right: 1.5%;
+            //   }
+            // }
+        }
+
+        &:first-child {
+            width: 50%;
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+
+            img {
+                border-top-left-radius: 50px;
+                @media (max-width: 767px) {
+                    border-top-left-radius: 35px;
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            width: 25%;
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+        }
+
+        &:last-child {
+            width: 25%;
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+        }
+
+        a:hover {
+            .img-container img {
+                transition: all 0.3s ease-in-out;
+                filter: opacity(0.4);
+            }
+            .three-articles-text {
+                transition: all 0.3s ease-in-out;
+                color: #fff;
+            }
+        }
+    }
+}

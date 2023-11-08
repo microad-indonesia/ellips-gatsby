@@ -1,0 +1,422 @@
+@import '../../styles/colors';
+
+.recommendations-section {
+    margin: 0 0 2rem;
+    padding: 2rem 0 6rem;
+
+    @media (max-width: 1280px) {
+        padding: 2rem 0 4rem;
+        margin: 0 0 2rem;
+    }
+
+    @media (max-width: 992px) {
+        margin-bottom: 1rem;
+        padding: 2rem 0;
+    }
+
+    .container {
+        border-top: 2px solid $ellips-pink;
+
+        .col-wrapper {
+            @media (max-width: 992px) {
+                padding: 0 2rem;
+            }
+
+            @media (max-width: 767px) {
+                padding: 0;
+            }
+
+            .section-title {
+                margin: 2.5rem 0 0;
+                width: 100%;
+                text-align: center;
+
+                @media (max-width: 767px) {
+                    width: 100%;
+                    margin: 2.5rem auto 0.5rem;
+                }
+
+                h3 {
+                    font-size: 1.5rem;
+                    letter-spacing: 0.5px;
+                    color: $black;
+
+                    @media (max-width: 320px) {
+                        font-size: 1.25rem;
+                    }
+
+                    span {
+                        color: $ellips-pink;
+                    }
+                }
+            }
+
+            .swiper {
+                width: 100%;
+                height: auto;
+                padding: 2rem 0;
+
+                .swiper-wrapper {
+                    .swiper-slide {
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .list-product {
+                            width: 60%;
+                            margin: 0 auto;
+
+                            @media (max-width: 1200px) {
+                                width: 75%;
+                            }
+
+                            @media (max-width: 992px) {
+                                width: 100%;
+                            }
+
+                            @media (max-width: 576px) {
+                                width: 80%;
+                            }
+
+                            .box-img {
+                                @media (max-width: 576px) {
+                                    width: 60%;
+                                    margin: 0 auto;
+                                }
+
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+
+                            .box-name {
+                                color: $ellips-pink;
+                                margin: 0.5rem auto 1rem;
+
+                                @media (max-width: 576px) {
+                                    width: 60%;
+                                }
+
+                                @media (max-width: 420px) {
+                                    width: 65%;
+                                }
+
+                                @media (max-width: 400px) {
+                                    width: 70%;
+                                }
+
+                                @media (max-width: 376px) {
+                                    width: 75%;
+                                }
+
+                                @media (max-width: 360px) {
+                                    width: 80%;
+                                }
+
+                                @media (max-width: 320px) {
+                                    width: 85%;
+                                }
+
+                                h3 {
+                                    font-size: 0.95rem;
+                                    line-height: 1.5rem;
+                                    letter-spacing: 0.25px;
+                                    text-transform: uppercase;
+
+                                    @media (max-width: 576px) {
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
+
+                            .box-button {
+                                width: 100%;
+
+                                .btn-recommendation {
+                                    background: #f34f96;
+                                    border: 1px solid #f34f96;
+                                    border-radius: 0.25rem 2rem;
+                                    color: #fff;
+                                    font-size: 0.8rem;
+                                    letter-spacing: 0.5px;
+                                    margin: 0.25rem 0 1rem;
+                                    padding: 0.75rem 1rem;
+                                    width: 100%;
+
+                                    @media (max-width: 768px) {
+                                        width: 100%;
+                                    }
+
+                                    @media (max-width: 576px) {
+                                        width: 70%;
+                                        margin: 0 auto;
+                                        display: flex;
+                                        justify-content: center;
+                                        font-size: 0.95rem;
+                                        padding: 0.65rem 1rem;
+                                    }
+
+                                    @media (max-width: 320px) {
+                                        width: 75%;
+                                    }
+
+                                    &:hover {
+                                        background: transparent;
+                                        color: $ellips-pink;
+                                        border: 1px solid $ellips-pink;
+                                    }
+
+                                    &:focus {
+                                        box-shadow: none;
+                                        outline: none;
+                                        border: 1px solid $ellips-pink;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .swiper-button-prev {
+                    display: none;
+                    color: $ellips-pink;
+
+                    @media (max-width: 576px) {
+                        display: block;
+                        left: 10%;
+                    }
+
+                    @media (max-width: 320px) {
+                        left: 3%;
+
+                        &::after {
+                            font-size: 2.25rem;
+                        }
+                    }
+                }
+
+                .swiper-button-next {
+                    display: none;
+                    color: $ellips-pink;
+
+                    @media (max-width: 576px) {
+                        display: block;
+                        right: 10%;
+                    }
+
+                    @media (max-width: 320px) {
+                        right: 3%;
+
+                        &::after {
+                            font-size: 2.25rem;
+                        }
+                    }
+                }
+            }
+
+            .product-display {
+                justify-content: space-between;
+
+                @media (min-width: 768px) and (max-width: 1080px) {
+                    padding: 2.5rem 0;
+                }
+
+                @media (max-width: 767px) {
+                    padding-top: 0.5rem;
+                }
+
+                .carousel-inner {
+                    @media (min-width: 768px) {
+                        overflow: visible;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 0;
+                    }
+
+                    .carousel-item {
+                        @media (min-width: 768px) {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            float: none;
+                            margin-right: 0;
+                        }
+
+                        .product-display-wrapper {
+                            position: relative;
+                            background: transparent;
+                            width: 55%;
+                            height: auto;
+
+                            @media (min-width: 991px) and (max-width: 1080px) {
+                                width: 70%;
+                            }
+                            @media (min-width: 768px) and (max-width: 990px) {
+                                width: 85%;
+                            }
+                            @media (max-width: 767px) {
+                                width: 100%;
+                                margin-bottom: 2rem;
+                            }
+
+                            .product-display-img {
+                                position: static;
+                                max-width: 250px;
+                                width: 100%;
+
+                                @media (max-width: 767px) {
+                                    width: 50%;
+                                    margin: 0 auto;
+                                }
+                            }
+
+                            .product-name {
+                                position: static;
+                                left: 0;
+                                bottom: 0;
+                                margin: 0.5rem auto;
+                                min-height: 60px;
+
+                                @media (min-width: 768px) and (max-width: 990px) {
+                                    bottom: 0;
+                                    min-height: 50px;
+                                }
+
+                                @media (max-width: 767px) {
+                                    width: 55%;
+                                    margin: 0.75rem auto 1rem;
+                                    min-height: auto;
+                                }
+
+                                @media (max-width: 400px) {
+                                    width: 60%;
+                                }
+
+                                @media (max-width: 380px) {
+                                    width: 65%;
+                                }
+
+                                @media (max-width: 320px) {
+                                    width: 75%;
+                                }
+
+                                h3 {
+                                    font-size: 0.95rem;
+                                    line-height: 1.5rem;
+                                    text-align: center;
+                                    letter-spacing: 0.25px;
+                                    margin: 0;
+
+                                    @media (max-width: 767px) {
+                                        font-size: 1.15rem;
+                                        line-height: 1.75rem;
+                                    }
+                                }
+                            }
+
+                            .see-detail {
+                                background: #f34f96;
+                                border: 1px solid #f34f96;
+                                border-radius: 0.25rem 2rem;
+                                color: #fff;
+                                font-size: 0.8rem;
+                                letter-spacing: 0.5px;
+                                margin: 0.25rem 0 1rem;
+                                padding: 0.75rem 1rem;
+                                position: static;
+                                width: 100%;
+
+                                @media (max-width: 768px) {
+                                    width: 100%;
+                                }
+
+                                @media (max-width: 576px) {
+                                    width: 60%;
+                                    margin: 0 auto;
+                                    display: flex;
+                                    justify-content: center;
+                                    font-size: 1rem;
+                                }
+
+                                @media (max-width: 320px) {
+                                    width: 75%;
+                                }
+
+                                &:hover {
+                                    background: transparent;
+                                    color: $ellips-pink;
+                                    border: 1px solid $ellips-pink;
+                                }
+
+                                &:focus {
+                                    box-shadow: none;
+                                    outline: none;
+                                    border: 1px solid $ellips-pink;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .carousel-control-prev,
+                .carousel-control-next {
+                    @media (max-width: 767px) {
+                        opacity: 1;
+                        width: 0;
+                    }
+                }
+
+                .carousel-control-prev {
+                    @media (max-width: 767px) {
+                        left: 15%;
+                        top: 35%;
+                    }
+
+                    @media (max-width: 380px) {
+                        left: 10%;
+                        top: 30%;
+                    }
+
+                    @media (max-width: 320px) {
+                        left: 5%;
+                        top: 25%;
+                    }
+                }
+
+                .carousel-control-next {
+                    @media (max-width: 767px) {
+                        right: 15%;
+                        top: 35%;
+                    }
+
+                    @media (max-width: 380px) {
+                        right: 10%;
+                        top: 30%;
+                    }
+
+                    @media (max-width: 320px) {
+                        right: 5%;
+                        top: 25%;
+                    }
+                }
+
+                .fa {
+                    @media (max-width: 767px) {
+                        font-size: 4rem;
+                        color: $ellips-pink;
+                    }
+                }
+
+                svg {
+                    @media (max-width: 767px) {
+                        font-size: 3rem;
+                        color: $ellips-pink;
+                    }
+                }
+            }
+        }
+    }
+}

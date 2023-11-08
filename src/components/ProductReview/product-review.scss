@@ -1,0 +1,277 @@
+@import '../../styles/colors';
+@import '../../styles/mixins';
+
+.box-testimonial {
+    padding: 0;
+
+    @media (max-width: 992px) {
+        padding: 0 2.5rem;
+    }
+
+    @media (max-width: 767px) {
+        padding: 0 1rem;
+    }
+
+    .product-review-section {
+        margin-bottom: 2.5rem;
+
+        @media (max-width: 992px) {
+            margin-bottom: 0;
+        }
+
+        .bg-light-pink {
+            background: $pink-footer;
+            border-top-left-radius: 150px;
+
+            @media (max-width: 992px) {
+                border-top-left-radius: 0.5rem;
+                border-top-right-radius: 8rem;
+                border-bottom-right-radius: 0.5rem;
+                border-bottom-left-radius: 8rem;
+                width: 100%;
+                padding-bottom: 1.5rem;
+            }
+
+            @media (max-width: 767px) {
+                border-top-right-radius: 5rem;
+                border-bottom-left-radius: 5rem;
+                padding-bottom: 1rem;
+            }
+        }
+
+        .review-section {
+            padding: 4rem 5rem 2rem;
+            position: relative;
+
+            @media (max-width: 1280px) {
+                padding: 4rem 3rem 2rem;
+            }
+
+            @media (max-width: 1024px) {
+                padding: 5rem 2.5rem 1rem;
+            }
+
+            @media (max-width: 992px) {
+                padding: 4rem 2rem 2.5rem;
+            }
+
+            @media (max-width: 767px) {
+                padding: 4rem 1.5rem 2rem;
+            }
+
+            @media (max-width: 360px) {
+                padding: 2.5rem 1.25rem 2rem;
+            }
+
+            .section-title {
+                margin-bottom: 1rem;
+                padding-left: 2.5rem;
+
+                @media (max-width: 992px) {
+                    padding-left: 0;
+                    margin-bottom: 2rem;
+                }
+
+                @media (max-width: 767px) {
+                    padding-left: 0;
+                }
+
+                h3 {
+                    font-size: 1.5rem;
+                    letter-spacing: 1px;
+                    color: $black;
+
+                    @media (max-width: 992px) {
+                        text-align: center;
+                    }
+
+                    @media (max-width: 767px) {
+                        font-size: 1.75em;
+                    }
+
+                    span {
+                        color: $ellips-pink;
+                    }
+                }
+            }
+
+            .review-content {
+                padding: 0 4rem 1.5rem;
+                margin-bottom: 1rem;
+                position: relative;
+
+                @media (max-width: 992px) {
+                    padding: 0 5rem 1rem;
+                }
+
+                @media (max-width: 767px) {
+                    padding: 0;
+                }
+
+                &:before {
+                    content: url(../../images/icons-and-logo/quote-start.svg);
+                    width: 5%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    @media (max-width: 992px) {
+                        left: 2.5%;
+                    }
+
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+
+                &:after {
+                    content: url(../../images/icons-and-logo/quote-end.svg);
+                    width: 5%;
+                    position: absolute;
+                    bottom: 10%;
+                    right: 5%;
+
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+
+                .reviewer {
+                    width: 50%;
+                    float: left;
+
+                    p {
+                        font-size: 0.95rem;
+                        margin-bottom: 0;
+                        font-weight: bolder;
+                        color: $black;
+                    }
+                }
+
+                .review-date {
+                    width: 50%;
+                    float: right;
+                    text-align: right;
+                    letter-spacing: 2px;
+
+                    p {
+                        font-weight: lighter;
+                        margin-bottom: 0;
+                    }
+                }
+
+                .review-rate {
+                    font-size: 1rem;
+                    margin: 0 0 1rem;
+
+                    svg {
+                        path {
+                            fill: $ellips-pink;
+                        }
+                    }
+                }
+
+                .review {
+                    border-bottom: 1px solid $ellips-pink;
+
+                    p {
+                        color: $black;
+                        font-size: 0.9rem;
+
+                        @media (max-width: 767px) {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    &.last {
+                        @media (max-width: 767px) {
+                            border-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+            .quote-start-mobile {
+                display: none;
+
+                @media (max-width: 767px) {
+                    display: none;
+                    width: 13%;
+                    margin-bottom: 5%;
+                }
+            }
+
+            .quote-end-mobile {
+                display: none;
+
+                @media (max-width: 767px) {
+                    display: none;
+                    width: 13%;
+                    float: right;
+                    margin-top: 8%;
+                }
+            }
+        }
+
+        .paging-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            @media (max-width: 767px) {
+                margin-top: 1rem;
+            }
+
+            .slick-arrow,
+            .slick-dots {
+                position: relative;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                text-align: initial;
+            }
+
+            .slick-arrow.slick-prev:before,
+            .slick-arrow.slick-next:before {
+                color: $ellips-pink;
+            }
+
+            ol {
+                list-style: none;
+                list-style-type: none;
+                counter-reset: reset-how-to;
+                position: relative;
+                width: auto;
+                line-height: 0;
+
+                li {
+                    counter-increment: reset-how-to;
+                    margin-bottom: 0;
+
+                    &:before {
+                        content: counter(reset-how-to) '';
+                        color: $black;
+                        font-weight: bolder;
+                        font-size: 20px;
+                    }
+
+                    button {
+                        position: absolute;
+                        bottom: 35%;
+                    }
+
+                    button:before {
+                        display: none;
+                    }
+                }
+
+                li.slick-active {
+                    &:before {
+                        color: $ellips-pink;
+                    }
+                }
+            }
+        }
+    }
+}
