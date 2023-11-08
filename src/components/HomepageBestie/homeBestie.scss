@@ -1,0 +1,838 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+section.home-bestie {
+  .container-fluid.desktop {
+    .box-pills {
+      .box-item {
+        // add space
+        .box-space {
+          width: 100%;
+          background-color: $lightest-pink;
+          height: 200px;
+          border-radius: 6rem 0;
+          cursor: none;
+
+          &.reverse {
+            border-radius: 0rem 6rem;
+          }
+          @media (max-width: 1204px) {
+            height: 180px;
+          }
+
+          @media (max-width: 768px) {
+            display: none;
+          }
+        }
+        &.hair-bestie {
+          &:hover {
+            pointer-events: none;
+          }
+
+          .box-text {
+            &:hover {
+              pointer-events: none;
+            }
+          }
+        }
+
+        &:hover {
+          .nav-link {
+            .bestie-box {
+              .box-text {
+                background: $pink-two;
+
+                &.bestie-one {
+                  background: $pink-four;
+                }
+
+                &.bestie-four {
+                  background: $pink-two;
+                }
+              }
+
+              .box-image {
+                filter: opacity(0.75);
+                -webkit-filter: opacity(0.75);
+                transition: all 0.5s ease-in-out;
+                -webkit-transition: all 0.5s ease-in-out;
+                -moz-transition: all 0.5s ease-in-out;
+                -ms-transition: all 0.5s ease-in-out;
+                -o-transition: all 0.5s ease-in-out;
+              }
+            }
+          }
+        }
+
+        .nav-link {
+          padding: 0;
+
+          &.active {
+            background: transparent;
+          }
+
+          .bestie-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @media (max-width: 1024px) {
+              align-items: flex-start;
+            }
+
+            .box-text {
+              width: 100%;
+              // height: 250px;
+              height: 200px;
+              background: $pink-four;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              // border-radius: 0rem 10rem;
+              border-radius: 0 6rem;
+
+              // @media (max-width: 1280px) {
+              //     height: 335px;
+              // }
+
+              @media (max-width: 1024px) {
+                width: 100%;
+                height: 180px;
+                border-radius: 0rem 5rem;
+              }
+
+              @media (max-width: 890px) {
+                // height: 218px;
+                // border-radius: 0 5rem;
+              }
+
+              @media (max-width: 768px) {
+                // border-radius: 0 5rem;
+                // height: 218px;
+                // width: 75%;
+              }
+
+              &.colored {
+                // width: 70%;
+                width: 100%;
+
+                @media (max-width: 1024px) {
+                  // width: 100%;
+                }
+
+                @media (max-width: 768px) {
+                  // width: 77%;
+                }
+              }
+
+              h4 {
+                text-transform: uppercase;
+                color: $ellips-grey;
+                font-size: 1.25rem;
+                width: 48%;
+                // text-align: center;
+                margin: 0 auto;
+
+                @media (min-width: 1440px) {
+                  // width: 50%;
+                }
+
+                @media (max-width: 1280px) {
+                  width: 55%;
+                }
+
+                @media (max-width: 1024px) {
+                  // width: 75%;
+                  // font-size: 2rem;
+                  font-size: 1rem;
+                }
+
+                @media (max-width: 890px) {
+                  // font-size: 1.5rem;
+                }
+
+                @media (max-width: 768px) {
+                  // font-size: 1.25rem;
+                  width: 47%;
+                }
+              }
+
+              &.bestie-four {
+                background: $pink-five;
+                // border-radius: 10rem 0 10rem 0;
+                border-radius: 6rem 0;
+
+                @media (max-width: 1024px) {
+                  border-radius: 5rem 0;
+                }
+
+                @media (max-width: 890px) {
+                  // border-radius: 5rem 0 5rem 0;
+                }
+
+                @media (max-width: 768px) {
+                  // border-radius: 5rem 0 5rem 0;
+                }
+              }
+            }
+
+            .box-image {
+              height: 200px;
+              width: 100%;
+              overflow: hidden;
+
+              @media (max-width: 1024px) {
+                height: 180px;
+              }
+
+              @media (max-width: 768px) {
+                // height: 218px;
+              }
+
+              img {
+                object-fit: cover;
+                width: 100%;
+                // height: 340px;
+                height: 200px;
+                // border-radius: 10rem 0;
+                border-radius: 6rem 0;
+
+                @media (max-width: 1280px) {
+                  // height: 335px;
+                }
+
+                @media (max-width: 1024px) {
+                  height: 180px;
+                  border-radius: 5rem 0;
+                }
+
+                @media (max-width: 890px) {
+                  // height: 218px;
+                }
+
+                @media (max-width: 768px) {
+                  // height: 218px;
+                }
+              }
+
+              &.fragile {
+                width: 100%;
+
+                img {
+                  width: 100%;
+                  border-radius: 0 6rem;
+
+                  @media (max-width: 1024px) {
+                    border-radius: 0 5rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .box-content {
+      .box-item {
+        .box-left {
+          background: $bestie-one;
+          padding: 8rem 4rem 3rem;
+
+          @media (max-width: 890px) {
+            padding: 5rem 2rem 2rem;
+          }
+
+          @media (max-width: 768px) {
+            padding: 5rem 2rem 2rem;
+          }
+
+          .title-bestie {
+            // margin: 0 0 1.5rem;
+            margin: 0 0 1.5rem 11rem;
+
+            h3 {
+              font-size: 2rem;
+              color: $ellips-pink;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+
+              @media (max-width: 1024px) {
+                font-size: 1.75rem;
+                margin: 0 0 1.5rem -5rem;
+              }
+              @media (max-width: 768px) {
+                font-size: 1.5rem;
+                margin: 0;
+              }
+            }
+            @media (max-width: 768px) {
+              margin: 0;
+            }
+          }
+
+          .desc-bestie {
+            width: 55%;
+            text-align: justify;
+            margin: 2rem 0 0 11rem;
+
+            @media (max-width: 1024px) {
+              width: 70%;
+              margin: 2rem 0 0 6rem;
+            }
+
+            @media (max-width: 768px) {
+              width: 85%;
+              margin: 0;
+            }
+
+            .text {
+              font-size: 1rem;
+              color: $border-grey;
+              opacity: 0.85;
+            }
+          }
+        }
+
+        .box-right {
+          background: $bestie-two;
+          //   padding: 8rem 4rem 3rem;
+          padding: 8rem 3rem 3rem;
+
+          @media (max-width: 1024px) {
+            // padding: 8rem 2rem 3rem;
+            padding: 8rem 0 3rem;
+          }
+
+          @media (max-width: 890px) {
+            padding: 5rem 2rem 2rem;
+          }
+
+          @media (max-width: 768px) {
+            padding: 5rem 1rem 2rem;
+          }
+
+          .title-recommendation {
+            font-size: 1.5rem;
+            color: $ellips-pink;
+            text-transform: uppercase;
+            margin: 0 12rem 2rem 0;
+            text-align: end;
+
+            @media (max-width: 1024px) {
+              font-size: 1.25rem;
+              margin: 0 10rem 2rem 0;
+            }
+            @media (max-width: 768px) {
+              margin: 0;
+              text-align: center;
+            }
+          }
+
+          .card-group {
+            background: $bestie-two;
+            margin: 0 7rem 0 0;
+
+            @media (max-width: 1366px) {
+              margin: 0 4rem 0 0;
+            }
+
+            @media (max-width: 768px) {
+              margin: 0;
+            }
+
+            .card {
+              background: $bestie-two;
+              //   margin: 0 1rem;
+              border: 0;
+              border-radius: 0;
+
+              @media (max-width: 890px) {
+                margin: 0;
+              }
+
+              @media (max-width: 768px) {
+                margin: 0;
+              }
+
+              .card-img-top {
+                width: 75%;
+                height: auto;
+                margin: 0 auto;
+              }
+
+              .card-body {
+                text-align: center;
+                padding: 1rem 0;
+
+                .card-title {
+                  font-size: 1.15rem;
+                  line-height: 1.65rem;
+                  color: $ellips-pink;
+                  margin: 0 1.75rem 2rem;
+
+                  @media (max-width: 1366px) {
+                    margin: 0 1.75rem 1.75rem;
+                    font-size: 1rem;
+                  }
+
+                  @media (max-width: 1280px) {
+                    margin: 0 1.35rem 1.5rem;
+                  }
+
+                  @media (max-width: 1024px) {
+                    font-size: 1rem;
+                    margin: 0 1.25rem 1.5rem;
+                  }
+
+                  @media (max-width: 890px) {
+                    line-height: 1.5rem;
+                    margin: 0 0.75rem 1.5rem;
+                  }
+
+                  @media (max-width: 840px) {
+                    margin: 0 0.25rem 1.5rem;
+                  }
+
+                  @media (max-width: 768px) {
+                    font-size: 0.95rem;
+                    line-height: 1.25rem;
+                    margin: 0 0.25rem 1.5rem;
+                  }
+                }
+
+                .card-link {
+                  background: $ellips-pink;
+                  color: #fff;
+                  font-size: 1rem;
+                  border: 0;
+                  padding: 0.85rem 3.25rem;
+                  border-radius: 0 2.5rem;
+
+                  @media (max-width: 1024px) {
+                    padding: 0.85rem 2rem;
+                  }
+
+                  @media (max-width: 890px) {
+                    border-radius: 0 1.75rem;
+                    padding: 0.85rem 2rem;
+                    font-size: 0.75rem;
+                  }
+
+                  @media (max-width: 768px) {
+                    border-radius: 0 2rem;
+                    padding: 0.85rem 2rem;
+                    font-size: 0.75rem;
+                  }
+
+                  &:hover {
+                    border: 1px solid $ellips-pink;
+                    background: transparent;
+                    color: $ellips-pink;
+                    transition: all 0.5s;
+                    -webkit-transition: all 0.5s;
+                    -moz-transition: all 0.5s;
+                    -ms-transition: all 0.5s;
+                    -o-transition: all 0.5s;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container.mobile {
+    padding: 0;
+
+    .title-section {
+      color: $ellips-pink;
+      font-size: 1.85rem;
+      text-transform: uppercase;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto 1rem;
+      line-height: 2.5rem;
+      letter-spacing: 1.5px;
+
+      @media (max-width: 360px) {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+      }
+
+      @media (max-width: 320px) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+
+      span {
+        color: $black;
+      }
+    }
+
+    .swiper {
+      width: 100%;
+      height: auto;
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        bottom: 40%;
+        top: auto;
+        color: $ellips-pink;
+
+        &::after {
+          font-size: 3.25rem;
+          font-weight: bold;
+
+          @media (max-width: 400px) {
+            font-size: 2.75rem;
+          }
+
+          @media (max-width: 375px) {
+            font-size: 2.5rem;
+          }
+        }
+      }
+
+      .swiper-wrapper {
+        .swiper-slide {
+          font-size: 18px;
+
+          .box-image {
+            width: 85%;
+            margin: 1rem auto 2rem;
+
+            img {
+              border-radius: 0.5rem 8rem;
+            }
+          }
+
+          .box-text {
+            .title-bestie {
+              font-size: 1.5rem;
+              color: $ellips-pink;
+              text-transform: uppercase;
+              margin: 0 0 0.75rem;
+              text-align: center;
+              letter-spacing: 1.5px;
+
+              @media (max-width: 320px) {
+                font-size: 1.25rem;
+                letter-spacing: 1px;
+              }
+
+              h3 {
+                color: $ellips-pink;
+              }
+            }
+
+            .desc-bestie {
+              width: 85%;
+              margin: 0 auto 2rem;
+              text-align: center;
+
+              @media (max-width: 390px) {
+                width: 95%;
+              }
+
+              @media (max-width: 360px) {
+                width: 100%;
+              }
+
+              .text {
+                font-size: 1rem;
+                color: $ellips-grey;
+                line-height: 1.85rem;
+
+                @media (max-width: 576px) {
+                  line-height: 1.65rem;
+                }
+
+                @media (max-width: 360px) {
+                  width: 90%;
+                  margin: auto;
+                }
+
+                @media (max-width: 320px) {
+                  line-height: 1.5rem;
+                }
+              }
+            }
+
+            .box-recomendation {
+              padding: 1rem 0;
+
+              .title-recomendation {
+                text-transform: uppercase;
+                margin: 0 auto 1.5rem;
+                text-align: center;
+                width: 75%;
+
+                h3 {
+                  font-size: 1.5rem;
+                  color: $ellips-pink;
+                  line-height: 2rem;
+                  letter-spacing: 1px;
+
+                  @media (max-width: 576px) {
+                    line-height: 1.85rem;
+                  }
+
+                  @media (max-width: 320px) {
+                    font-size: 1.25rem;
+                  }
+                }
+              }
+
+              .recomendation-item {
+                text-align: center;
+                padding: 0 1rem;
+
+                .item {
+                  .title {
+                    font-size: 1rem;
+                    color: $ellips-grey;
+                    letter-spacing: 0.25px;
+                    line-height: 1.5rem;
+                    margin: 0.5rem auto 0;
+                    width: 90%;
+
+                    @media (max-width: 420px) {
+                      width: 100%;
+                    }
+
+                    @media (max-width: 360px) {
+                      font-size: 0.95rem;
+                    }
+
+                    @media (max-width: 320px) {
+                      font-size: 0.8rem;
+                      line-height: 1.35rem;
+                    }
+                  }
+
+                  .box-image {
+                    width: 95%;
+                    margin: 0.5rem auto 1.25rem;
+
+                    img {
+                      border-radius: 0;
+                    }
+                  }
+
+                  .btn {
+                    &-link {
+                      &__product {
+                        font-size: 0.85rem;
+                        background: $ellips-pink;
+                        color: $white;
+                        border-radius: 0 2rem;
+                        letter-spacing: 0;
+                        text-transform: capitalize;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .nav {
+      display: none !important;
+      .nav-dropdown-mobile {
+        background: $ellips-pink;
+        color: $white;
+        width: 100%;
+        margin: 0 auto 1rem;
+        padding: 0.5rem 0;
+        text-align: center;
+        border-radius: 0 4rem;
+
+        .nav-link {
+          color: $white;
+          font-size: 1.15rem;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+
+          @media (max-width: 360px) {
+            font-size: 1rem;
+          }
+
+          @media (max-width: 320px) {
+            font-size: 0.85rem;
+          }
+        }
+
+        .dropdown-menu {
+          width: 100%;
+          padding: 0;
+          border: none;
+          border-radius: 0;
+
+          .dropdown-item {
+            color: $ellips-pink;
+            text-align: center;
+            font-size: 0.95rem;
+            letter-spacing: 1.25px;
+            padding: 1rem 0;
+            text-transform: uppercase;
+            border-bottom: 2px solid $ellips-pink;
+
+            &.active,
+            &:hover {
+              background: $ellips-pink;
+              color: $white;
+            }
+
+            @media (max-width: 320px) {
+              font-size: 0.85rem;
+            }
+          }
+        }
+      }
+    }
+
+    .tab-content {
+      display: none !important;
+
+      .tab-pane {
+        .box-image {
+          width: 85%;
+          margin: 1rem auto 2rem;
+        }
+
+        .box-text {
+          .title-bestie {
+            font-size: 1.5rem;
+            color: $ellips-pink;
+            text-transform: uppercase;
+            margin: 0 0 0.75rem;
+            text-align: center;
+            letter-spacing: 1.5px;
+
+            @media (max-width: 320px) {
+              font-size: 1.25rem;
+              letter-spacing: 1px;
+            }
+
+            h3 {
+              color: $ellips-pink;
+            }
+          }
+
+          .desc-bestie {
+            width: 85%;
+            margin: 0 auto 2rem;
+            text-align: center;
+
+            @media (max-width: 390px) {
+              width: 95%;
+            }
+
+            @media (max-width: 360px) {
+              width: 100%;
+            }
+
+            .text {
+              font-size: 1rem;
+              color: $ellips-grey;
+              line-height: 1.85rem;
+
+              @media (max-width: 576px) {
+                line-height: 1.65rem;
+              }
+
+              @media (max-width: 320px) {
+                line-height: 1.5rem;
+              }
+            }
+          }
+
+          .box-recomendation {
+            padding: 1rem 0;
+
+            .title-recomendation {
+              text-transform: uppercase;
+              margin: 0 auto 1.5rem;
+              text-align: center;
+              width: 75%;
+
+              h3 {
+                font-size: 1.5rem;
+                color: $ellips-pink;
+                line-height: 2rem;
+                letter-spacing: 1px;
+
+                @media (max-width: 576px) {
+                  line-height: 1.85rem;
+                }
+
+                @media (max-width: 320px) {
+                  font-size: 1.25rem;
+                }
+              }
+            }
+
+            .recomendation-item {
+              text-align: center;
+
+              .item {
+                .title {
+                  font-size: 1rem;
+                  color: $ellips-grey;
+                  letter-spacing: 0.25px;
+                  line-height: 1.5rem;
+                  margin: 0.5rem auto 0;
+                  width: 90%;
+
+                  @media (max-width: 420px) {
+                    width: 100%;
+                  }
+
+                  @media (max-width: 360px) {
+                    font-size: 0.95rem;
+                  }
+
+                  @media (max-width: 320px) {
+                    font-size: 0.8rem;
+                    line-height: 1.35rem;
+                  }
+                }
+
+                .box-image {
+                  width: 95%;
+                  margin: 0.5rem auto 1.25rem;
+                }
+
+                .btn {
+                  &-link {
+                    &__product {
+                      font-size: 0.85rem;
+                      background: $ellips-pink;
+                      color: $white;
+                      border-radius: 0 2rem;
+                      letter-spacing: 0;
+                      text-transform: capitalize;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

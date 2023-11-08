@@ -1,0 +1,21 @@
+version: '3.3'
+
+networks:
+    # this network faces the outside world
+    elips-gatsby-out:
+        driver: overlay
+        internal: false
+
+services:
+    elips-gatbsy:
+        image: registry.microad.co.id/kino/ellips-fe-gatsby:${BUILD_VERSION}
+        ports:
+            - '7002:7002'
+        environment:
+            - NODE_ENV=staging
+            - GATSBY_API_URL=http://staging.microad.co.id:7000
+        networks:
+            - elips-gatsby-out
+        deploy:
+            restart_policy:
+                condition: on-failure

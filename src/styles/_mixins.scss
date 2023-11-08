@@ -1,0 +1,90 @@
+@import 'colors';
+
+//background
+@mixin bg-product {
+    border-radius: 80px 20px;
+}
+
+@mixin bg-light-pink {
+    background-color: $light-pink;
+}
+
+//buttons
+@mixin btn-default {
+    font-size: 0.65em;
+    border-radius: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid;
+    @media (min-width: 1401px) and (max-width: 1600px) {
+        font-size: 0.5em;
+    }
+}
+
+@mixin btn-fill-black {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+    &:hover,
+    &:active {
+        border-color: #fff;
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+@mixin btn-outline-black {
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+    &:hover,
+    &:active {
+        border-color: #000;
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+@mixin btn-fill-pink {
+    border-color: $pink;
+    background-color: $pink;
+    color: #fff;
+    &:hover,
+    &:active {
+        background-color: transparent;
+        color: $pink;
+    }
+}
+
+@mixin btn-outline-pink {
+    border-color: $pink;
+    background-color: transparent;
+    color: $pink;
+
+    &:hover,
+    &:active {
+        background-color: $pink;
+        color: #fff;
+    }
+}
+
+@mixin pink-gradient {
+    // background: rgb(255, 255, 255);
+    // background: linear-gradient(
+    //   180deg,
+    //   rgba(255, 255, 255, 0) 0%,
+    //   rgba(255, 175, 187, 1) 37%,
+    //   rgba(253, 121, 173, 1) 90%
+    // );
+
+    &:hover {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 175, 187, 1) 47%
+        );
+        width: 100%;
+    }
+}

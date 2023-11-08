@@ -1,0 +1,174 @@
+@import '../../styles/colors';
+
+.search-result-page {
+    background: #f6f6f6;
+
+    .search-result-container {
+        padding-top: 7%;
+        padding-bottom: 5%;
+        @media (min-width: 768px) and (max-width: 990px) {
+            padding-top: 15%;
+        }
+        @media (max-width: 767px) {
+            padding-top: 20%;
+        }
+
+        .border-bottom-pink {
+            position: relative;
+            &:after {
+                content: '';
+                outline: 1px solid $pink;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 95%;
+            }
+        }
+
+        .section-search-title {
+            .page-title,
+            .keyword {
+                text-align: center;
+                text-transform: uppercase;
+                color: #000;
+                letter-spacing: 2px;
+                h1 {
+                    font-weight: bolder;
+                    @media (max-width: 767px) {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+
+            .keyword {
+                text-transform: lowercase;
+
+                h3 {
+                    font-weight: bolder;
+
+                    span {
+                        color: $pink;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            form .form-group {
+                width: 40%;
+                @media (min-width: 768px) and (max-width: 990px) {
+                    width: 80%;
+                }
+                @media (max-width: 767px) {
+                    width: 90%;
+                }
+
+                input {
+                    padding-left: 4%;
+                    padding-right: 4%;
+                    @media (max-width: 767px) {
+                        padding-left: 8%;
+                        padding-right: 8%;
+                    }
+                }
+
+                .fa.fa-search {
+                    right: 4%;
+                    @media (max-width: 767px) {
+                        right: 8%;
+                    }
+                }
+            }
+        }
+
+        .section-results {
+            width: 100%;
+            padding: 2% 0;
+            @media (min-width: 768px) and (max-width: 990px) {
+                padding: 5% 0;
+            }
+            @media (max-width: 767px) {
+                padding: 10% 0;
+            }
+
+            .section-title {
+                text-align: center;
+                h3 {
+                    font-size: 1.5em;
+                }
+            }
+
+            &__product {
+                .product-display {
+                    padding-bottom: 5%;
+                    width: 95%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    justify-content: center;
+
+                    .product-display-wrapper {
+                        background-color: #fff;
+                        height: 170px;
+                        margin: 2% 4%;
+                        padding-top: 2%;
+
+                        @media (min-width: 768px) and (max-width: 990px) {
+                            height: 125px;
+                            padding-top: 3%;
+                            width: 100px;
+                            margin: 2%;
+                        }
+
+                        @media (max-width: 767px) {
+                            margin-right: 2%;
+                            margin-left: 2%;
+                            margin-bottom: 15%;
+                            padding-top: 5%;
+                        }
+
+                        .product-display-img {
+                            position: relative;
+                            width: 50%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            bottom: -10%;
+                            left: 0;
+                        }
+
+                        .product-name {
+                            position: relative;
+                            bottom: 0;
+                            left: 25%;
+                            width: 90%;
+                            font-size: 0.8em;
+                            margin-top: 5%;
+                            @media (min-width: 768px) and (max-width: 990px) {
+                                font-size: 0.6em;
+                                margin-top: 10%;
+                            }
+                            @media (max-width: 767px) {
+                                left: 5%;
+                                font-size: inherit;
+                                margin-top: 10%;
+                            }
+                        }
+
+                        .see-detail {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            &__article {
+                .section-article-list {
+                    justify-content: center;
+
+                    .article-card {
+                        margin-left: 1%;
+                        margin-right: 1%;
+                    }
+                }
+            }
+        }
+    }
+}

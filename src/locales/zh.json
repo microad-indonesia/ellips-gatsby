@@ -1,0 +1,241 @@
+{
+    "common": {
+        "button": "See detail",
+        "load": "Load More"
+    },
+    "category": {
+        "hair-vitamin": "头发维生素",
+        "hair-mask": "发膜",
+        "dry-shampoo": "干性香波",
+        "attribute": {
+            "attribute1": "头发类型",
+            "attribute2": "优势",
+            "attribute3": "成分",
+            "attribute4": "最佳使用时间",
+            "attribute5": "香味"
+        }
+    },
+    "menu": {
+        "home": "首頁",
+        "about": "关于ELLIPS 艾利普斯",
+        "search": "搜尋",
+        "hairpedia": "发际 髮百科",
+        "contact": "联系我们"
+    },
+    "home": {
+        "banner": {
+            "button": "See detail"
+        },
+        "bestie": {
+            "category1": "干燥的头发",
+            "category2": "染发",
+            "category3": "掉发",
+            "content": {
+                "description1": "一系列护发产品，可以保护头发不干燥，保持头发健康光滑，易于打理。",
+                "description2": "一系列护发产品，可以保护染了色的头发不干燥，并提供持久的颜色保护，同时保持头发健康、光滑和易于打理。",
+                "description3": "一系列护发产品，可以加强和保护头发不干燥。保持头发健康光滑，易于打理。"
+            },
+            "recommendation": {
+                "title": "产品推荐",
+                "button": "查看产品"
+            },
+            "product1": {
+                "link1": "/zh/hair-vitamin/ellips-hair-treatment",
+                "link2": "/zh/hair-mask/ellips-hair-treatment-1"
+            },
+            "product2": {
+                "link1": "/zh/hair-vitamin/ellips-nutri-color",
+                "link2": "/zh/hair-mask/ellips-nutri-color-1"
+            },
+            "product3": {
+                "link1": "/zh/hair-vitamin/ellips-hair-vitality",
+                "link2": "/zh/hair-mask/ellips-volume-miracle"
+            }
+        },
+        "category": {
+            "title1": "Meet your hair's",
+            "title2": "best friend",
+            "subtitle": "富含维生素的完美配方能帮助您拥有更加健康柔顺的头发甚至可以预防损伤。准备好了吗让您的头发焕然一新!",
+            "button": "查看详细信息"
+        },
+        "review": {
+            "title1": "What They Said",
+            "title2": " About Us"
+        },
+        "article": {
+            "title1": "Hair",
+            "title2": "Pedia",
+            "button_more": "更多",
+            "button_all": "查看所有文章"
+        },
+        "gallery": {
+            "title1": "Follow & Share",
+            "title2": "HairLittleSecret",
+            "title3": "关注我们的Instagram公众号"
+        }
+    },
+    "hairpedia": {
+        "title": "Hairpedia",
+        "article": {
+            "title1": "Discover",
+            "title2": "New Things",
+            "subtitle": "寻找健康头发的秘诀和灵感",
+            "button": "查看所有文章"
+        },
+        "video": {
+            "title": "Explore The Hair Secret",
+            "subtitle": "找到小秘诀，让头发健康长相",
+            "button": "查看所有视频"
+        }
+    },
+    "footer": {
+        "title": "感谢支持 #HAIRREADY WITH ELLIPS艾利普斯！",
+        "subtitle": "想了解更多关于 Ellips艾利普斯信息或者想和我们做生意，请在这里发送邮件！"
+    },
+    "recommendation": {
+        "title1": "You Might",
+        "title2": "Also Love"
+    },
+    "link": {
+        "ehv-hair-repair": "/zh/hair-vitamin/ellips-hair-repair-1",
+        "ehv-smooth-silky": "/zh/hair-vitamin/ellips-smooth-and-silky",
+        "ehv-silky-black": "/zh/hair-vitamin/ellips-silky-black-1",
+        "ehv-ultra-treatment": "/zh/hair-vitamin/ellips-ultra-treatment",
+        "ehv-nourish-protect": "/zh/hair-vitamin/ellips-nourish-protect",
+        "ehv-nourish-soften": "/zh/hair-vitamin/ellips-nourish-and-soften",
+        "ehv-hair-treatment": "/zh/hair-vitamin/ellips-hair-treatment",
+        "ehv-smooth-shiny": "/zh/hair-vitamin/ellips-smooth-and-shiny",
+        "ehv-shiny-black": "/zh/hair-vitamin/ellips-shiny-black",
+        "ehm-hair-treatment": "/zh/hair-mask/ellips-hair-treatment-1",
+        "ehm-smooth-shiny": "/zh/hair-mask/ellips-smooth-and-shiny-1",
+        "ehm-nutri-color": "/zh/hair-mask/ellips-nutri-color-1",
+        "ehm-hair-repair": "/zh/hair-mask/ellips-hair-repair",
+        "ehm-smooth-silky": "/zh/hair-mask/ellips-smooth-and-silky-1",
+        "ehm-silky-black": "/zh/hair-mask/ellips-silky-black",
+        "eds-blossom": "/zh/dry-shampoo/ellips-dry-shampoo-blossom-1"
+    },
+    "article": {
+        "related": "相关文章",
+        "metadesc": "Read our articles"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "option": "国家",
+        "email": "電子郵件帳號",
+        "name": "姓名",
+        "message": "信息",
+        "submit": "發送",
+        "operation": "周一至周五上午",
+        "phone": "致电我们+6221 8082 1166"
+    },
+    "search": {
+        "title": "您的搜寻结果",
+        "for": "对于",
+        "product": "产品展示",
+        "article": "文章",
+        "metadesc": "Your search result on Ellips website"
+    },
+    "about": {
+        "title": "About Ellips",
+        "description": "缺少了健康靓丽头发的亮相是不完美的，这就是为什么女人们总少不了使用电吹风、电夹板、卷发器等各种头发定型器的原因，这些头发定型器已成为我们日常生活中的好帮手。有时我们会忘了这些电器也会损伤我们的头发，又或者我们可能清楚，但没有其他选择来使得我们每时每刻总是能够以完美头发状态示人。",
+        "subtitle": "头发定型器和太阳光会损伤头发？",
+        "section1": {
+            "title": "定型工具的温度可高到230°C",
+            "content1": "现在设计的热定型工具可以在比以前更高的温度下工作，有时高于 230°C (446°F). 其使用后的结果可能是头发干枯、暗沉且更难以梳理，发脆甚至可能导致头发断裂。",
+            "content2": "护发研究Hair Study of Heat Protection"
+        },
+        "section2": {
+            "title": "太阳光也能对头发造成伤害",
+            "content1": "过度的阳光照射是导致发干结构受损的最常见原因。UVB辐射导致头发蛋白质流失而UVA辐射导致发色发生改变。",
+            "content2": "美国国立医学US National of Medicine",
+            "content3": "Ellips 能够解决这些问题。2005年诞生于印尼的Ellips 现在已经成为亚洲排名第一的头发维生素* 。其配方能够保 和护理每根受损发丝，让头发恢复健康光泽。 甚至在第一次使用后就会惊喜发现发质更加柔顺易于梳理 。 *基于英敏特全球新产品数据库"
+        },
+        "section3": {
+            "title": "为什么是Ellips?",
+            "content1": "第一次使用后头发变得健康柔顺。",
+            "content2": "持久的清新发香。",
+            "content3": "头发吸收性好，使用后头发不会潮湿粘手。",
+            "content4": "适用于各类发质。"
+        },
+        "section4": {
+            "title": "印尼每五位女性中就有一",
+            "content": "位信任Ellips头发维生素。现在是时候轮到我们来试用了！"
+        }
+    },
+    "tnc": {
+        "title": "附带条约",
+        "section1": {
+            "title": "TERMS & CONDITIONS",
+            "content": "Below terms and conditions apply to the use of the Ellips Haircare Indonesia website. These terms and conditions are binding you and PT Kino Indonesia Tbk, as the licensor of the Ellips Haircare Indonesia, located at Kino Tower 17th Fl, Alam Sutera, Jl. Jalur Sutera Boulevard No. 01, Tangerang City, Banten, 15143. Please read the terms and conditions carefully before using the site. By accessing this site, you agree to the terms of use, conditions, and all applicable laws. If you do not agree to these terms, you may not use this site."
+        },
+        "section2": {
+            "title": "Personal Data ",
+            "content1": "We will collect your personal data information, if you: (I) put your e-mail address in the column provided; and (II) contact us through the Call Center service.",
+            "content2": "You could read and learn further on the collection and management of your personal data ",
+            "link": " here"
+        },
+        "section3": {
+            "title": "Information and Site Use",
+            "content1": "The information in this site contains description of Ellips Haircare products in general and they (the products) are not sold directly through this site, but through a third-party site available in their respective countries.",
+            "content2": "The advice provided through the articles on this site is for indicative purposes and is not meant to substitute any medical diagnosis by the specialists. Therefore, we do not guarantee the complete satisfaction of your action. For more information, we advise you to consult with a doctor."
+        },
+        "section4": {
+            "title": "Purchase of Ellips Haircare Product",
+            "content": "You will be directed to an e-commerce page according to your choice and country of domicile when clicking “Order Now” on the product page. Products sold in each e-commerce are sold by authorized distributors of PT Kino Indonesia Tbk. All products’ availability and prices will depend on the respective e-commerce in the country."
+        },
+        "section5": {
+            "title": "Intellectual Property Rights ",
+            "content": "We are the sole owner or rightful licensee of all rights to the site ellipshaircare.id and its contents. All titles, ownership, and intellectual property rights in this site are ours and are protected by the applicable law. It is strictly forbidden to use, modify, or affix the brands abovementioned. All debates relating to the articles shall be resolved through the court in Indonesia."
+        },
+        "section6": {
+            "title": "General",
+            "content": "The terms and conditions applicable to the use of this site may be modified at any time by Ellips Haircare Indonesia as the owner of the site ellipshaircare.id without any forewarning. The use of this site shall be regarded as your acceptance and covenant to the terms and conditions hereto."
+        }
+    },
+    "privacy": {
+        "title": "隐私政策",
+        "section1": {
+            "title": "PRIVACY POLICY",
+            "content": "We commit our best to develop and maintain the trust of our customers. This policy is one our way for us to account for this trust: by defining the goal of this site, , what information we collect, how we use and protect it, and which information we could utilize in based on our customers’ consent. Please read through this section thoroughly and carefully as it contains binding terms and conditions as well as covenant on the use this site."
+        },
+        "section2": {
+            "title": "Purpose of the Site",
+            "content": "The purpose of this site is to provide information on Ellips Haircare products under and in accordance with the license from PT Kino Indonesia Tbk. We do not sell any product through this site, instead, we provide information and reference on where you could purchase those products."
+        },
+        "section3": {
+            "title": "Collection of Personal Data",
+            "point1": "We obtain your personal data when you submit any business enquiry regarding our product and or store by submitting the following information: a). Name, b). Email Address",
+            "point2": "We also obtain the above-mentioned information when you interact directly with our staff through the call center number listed on our site.",
+            "point3": "In addition to the above, we could also utilize technology such as Cookies, Flash Cookies, Web Beacons, Web Server Logs to automatically record your activities on site after you accept the request."
+        },
+        "section4": {
+            "title": "Processing of Personal Data ",
+            "content1": "We gather your personal information to contact or communicate with you by telephone or e-mail to answer any business inquiries you have submitted regarding our products and stores. If you opt to contact us through our Call Center facility, you also agree that we may correspond or send any documents to you by disclosing your personal data, as disclosed on the outer layer of the envelope / parcel."
+        },
+        "section5": {
+            "title": "Personal Data Protection",
+            "content": "For every personal data we receive, we will take steps to ensure that the data is kept confidential and stored securely. We will not lease, trade, distribute, or sell to third parties, any of your personal data unless we receive your consent or it is lawful for us to do so."
+        },
+        "section6": {
+            "title": "Cookies and Cellular Technology",
+            "point1": "Cookies is small text files stored in your computer, tablet, or mobile phone. Cookies will store useful information while you are browsing the site, which will stimulate a continuous connection with the site itself. Cookies, however, cannot identify you as an individual.",
+            "content": "We use cookies for the following reasons, among others:",
+            "list1": "To learn how you interact with Ellips Haircare content",
+            "list2": "To help us improve your experience while browsing our site",
+            "list3": "Remember your preferences such as language or country, so you do not have to reconfigure the site every time you visit",
+            "list4": "To analyze how well our site is operating",
+            "point2": "Flash Cookies is data similar to cookies used to remember settings, preferences and usage, especially for videos and other similar services.",
+            "point3": "Web Beacons is small graphic images within the web pages which could record the page and advertisements selected by users.",
+            "point4": "Web Server Logs is records of site activities. For example, web server logs could record the terms or the links you choose to visit or it can also record the IP and cookies that the browser installed in the server."
+        },
+        "section7": {
+            "title": "Contact",
+            "content": "Should you have any query or complain regarding our privacy policy or data protection, you may directly ",
+            "link": " contact us"
+        }
+    },
+    "404": {
+        "title": "抱歉，找不到您要查找的页面",
+        "button": "回到首页"
+    }
+}

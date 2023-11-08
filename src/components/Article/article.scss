@@ -1,0 +1,8 @@
+@import '../../styles/mixins';
+
+.articles-page {
+    background: #f6f6f6;
+    .articles-page-wrapper {
+        padding-bottom: 5%;
+    }
+}

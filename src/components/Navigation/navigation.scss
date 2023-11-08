@@ -1,0 +1,334 @@
+@import '../../styles/colors';
+
+body.scroll-down {
+    .main-menu {
+        nav {
+            &.navbar {
+                transform: translate3d(0, -100%, 0);
+                transition: all 0.5s;
+            }
+        }
+    }
+}
+
+body.scroll-up {
+    .main-menu {
+        nav {
+            &.navbar {
+                transform: none;
+                transition: all 0.5s;
+            }
+        }
+    }
+}
+
+.main-menu {
+    nav {
+        &.navbar {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 2;
+        }
+
+        .navbar-brand {
+            width: 8%;
+
+            @media (max-width: 767px) {
+                width: 20%;
+            }
+
+            svg {
+                fill: $pink;
+                .st0 {
+                    fill: transparent;
+                }
+            }
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        .navbar-toggler {
+            padding: 0;
+            border: 0;
+            line-height: 0;
+            font-size: 2em;
+            background-color: transparent;
+
+            .icon-bar {
+                width: 30px;
+                height: 4px;
+                background-color: $ellips-grey;
+                display: block;
+                transition: all 0.3s ease-in-out;
+                margin-top: 4px;
+
+                &.top-bar {
+                    transform: rotate(45deg);
+                    transform-origin: 10% 10%;
+                }
+
+                &.middle-bar {
+                    opacity: 0;
+                }
+
+                &.bottom-bar {
+                    transform: rotate(-45deg);
+                    transform-origin: 10% 90%;
+                }
+            }
+
+            &.collapsed .top-bar {
+                transform: rotate(0);
+            }
+
+            &.collapsed .middle-bar {
+                opacity: 1;
+            }
+
+            &.collapsed .bottom-bar {
+                transform: rotate(0);
+            }
+        }
+
+        .navbar-collapse {
+            position: absolute;
+            top: 0;
+            left: 100%;
+            width: 50%;
+            transition: all 0.5s ease-out;
+            display: block;
+            padding-top: 10%;
+            padding-bottom: 3%;
+            padding-left: 5%;
+            z-index: -1;
+            border-radius: 100px 0 0 0;
+            height: 100vh;
+            background-color: #fff;
+
+            @media (min-width: 768px) and (max-width: 990px) {
+                padding-left: 10%;
+            }
+
+            @media (max-width: 767px) {
+                width: 100%;
+                padding-top: 25%;
+                padding-left: 12%;
+                border-radius: 80px 0 0 0;
+            }
+
+            ul.navbar-nav {
+                transform: translate(50px, 0);
+                transition: transform 0.2s ease-out;
+
+                @media (min-width: 768px) and (max-width: 990px) {
+                    width: 75%;
+                }
+
+                a.nav-link {
+                    color: $pink;
+                    letter-spacing: 2px;
+                    border-bottom: 1px dashed $light-pink;
+
+                    @media (min-width: 768px) and (max-width: 990px) {
+                        padding: 1.5rem 1rem;
+                    }
+                }
+            }
+
+            &.collapsing {
+                margin-right: 50%;
+                transition: all 0.5s ease-in;
+                display: block;
+                height: 100vh;
+            }
+
+            &.show {
+                top: 0;
+                left: 65%;
+                padding: 7rem 0 4rem 3.5rem;
+                z-index: -1;
+                border-radius: 0 0 0 6rem;
+                height: 100vh;
+                background-color: #fff;
+                box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+                @media (min-width: 768px) and(max-width: 990px) {
+                    left: 50%;
+                    padding-left: 10%;
+                }
+
+                @media (max-width: 767px) {
+                    left: 20%;
+                    padding: 5rem 0 2rem 2rem;
+                    padding-top: 25%;
+                    padding-left: 12%;
+                    border-radius: 0 0 0 4rem;
+                }
+
+                ul.navbar-nav {
+                    width: 55%;
+                    opacity: 1;
+                    transform: translate(0, 0);
+                    transition: transform 1s ease-out;
+
+                    @media (min-width: 768px) and(max-width: 990px) {
+                        width: 75%;
+                    }
+
+                    @media (max-width: 576px) {
+                        width: 65%;
+                        padding: 0;
+                    }
+
+                    a.nav-link {
+                        font-size: 14px;
+                        color: $ellips-grey;
+                        opacity: 0.75;
+                        letter-spacing: 2px;
+                        border-bottom: 1px dashed $border-grey;
+
+                        &:hover {
+                            color: $ellips-pink !important;
+                            border-bottom: 2px dashed $ellips-pink !important;
+                            font-weight: bold !important;
+                            opacity: 1 !important;
+                        }
+                    }
+
+                    li.nav-item.active a.nav-link {
+                        color: $ellips-pink;
+                        opacity: 1;
+                        font-weight: bold;
+                        border-bottom: 2px dashed $ellips-pink;
+                    }
+                }
+            }
+
+            .socmed-nav {
+                display: flex;
+                align-items: center;
+                margin-top: 2.5rem;
+                margin-bottom: 2.5rem;
+                @media (max-width: 767px) {
+                    margin-top: 1.5rem;
+                    margin-bottom: 1.5rem;
+                }
+
+                .socmed-icon {
+                    width: 4%;
+                    margin-right: 3%;
+                    @media (min-width: 768px) and (max-width: 990px) {
+                        width: 8%;
+                    }
+                    @media (max-width: 767px) {
+                        width: 8%;
+                        margin-right: 10%;
+                    }
+
+                    a {
+                        &:hover {
+                            svg path {
+                                fill: $ellips-pink;
+                                opacity: 1;
+                            }
+                        }
+
+                        svg path {
+                            fill: $ellips-grey;
+                            opacity: 0.65;
+                        }
+                    }
+                }
+
+                .socmed-icon.youtube {
+                    width: 5%;
+                    margin-right: 0;
+                    @media (min-width: 768px) and (max-width: 990px) {
+                        width: 9%;
+                    }
+                    @media (max-width: 767px) {
+                        width: 9%;
+                    }
+                }
+            }
+
+            form .form-group {
+                margin-left: 0;
+                width: 40%;
+                @media (min-width: 768px) and (max-width: 990px) {
+                    width: 80%;
+                }
+                @media (max-width: 767px) {
+                    width: 65%;
+                }
+
+                input {
+                    padding-left: 6%;
+                    padding-right: 6%;
+                }
+
+                .fa.fa-search {
+                    right: 6%;
+                }
+            }
+        }
+    }
+
+    nav .lang-switcher {
+        width: 15%;
+        justify-content: flex-end;
+        position: absolute;
+        right: 6%;
+        padding-top: 0.5%;
+        color: $ellips-grey;
+        opacity: 0.75;
+
+        &.color-pink {
+            color: $pink;
+        }
+
+        &.color-white {
+            color: #fff;
+        }
+
+        @media (min-width: 768px) and (max-width: 990px) {
+            width: 20%;
+            right: 8%;
+        }
+
+        @media (max-width: 767px) {
+            width: 65%;
+            justify-content: flex-start;
+            position: relative;
+            left: 0;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1em;
+            margin-right: 10%;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &.active {
+                color: $ellips-pink;
+                font-weight: bold;
+                opacity: 1;
+                padding-bottom: 0.25rem;
+                border-bottom: 2px solid $ellips-pink;
+            }
+
+            &:hover {
+                color: $ellips-pink;
+                font-weight: bold;
+                cursor: pointer;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+    }
+}
